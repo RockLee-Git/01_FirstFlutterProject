@@ -1,16 +1,27 @@
-# firstflutterproject
+# 编写第一个 Flutter 应用
 
-A new Flutter application.
+## 构建 Web 应用
+
+使用最新的 beta 频道的 Flutter SDK，并开启 web 支持：终端依次输入如下命令
+```
+ flutter channel beta
+ flutter upgrade
+ flutter config --enable-web
+```
+对一个已有的工程添加 Web 支持，需要在工程根目录下输入下面的命令：
+```
+flutter create .
+```
+
+运行 Web 程序
+
+```
+flutter run -d chrome
+```
+![image](doc/image.png)
+
+
+> windows 系统 flutter 配置文件路径： C:\Users\\${当前登录用户名}\AppData\Roaming\\.flutter_settings
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
