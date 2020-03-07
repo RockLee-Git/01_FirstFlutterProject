@@ -65,3 +65,30 @@ dependencies:
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 ```
+## 热身 简单的 ListView
+
+先看一遍，看明白照着码，看不明白也照着码，呃,,,,长大了就会懂了。
+
+Divider 在 chrome 上有Bug
+
+![image_1](doc/image_1.png)
+
+在 Android 真机上木有问题 , 怪不得跑 WEB 项目要切 Beta 分支...
+
+![image_2](doc/image_2.png)
+
+>  i ~/ 2 表示 i 除以 2，但返回值是整形（向下取整），比如 i 为：1, 2, 3, 4, 5 时，结果为 0, 1, 1, 2 值是整形（向下取整），比如 i 为：1, 2, 3, 4, 5 时，结果为 0, 1, 1, 2, 2, 2
+
+## 真正的第一个项目
+
+项目中涉及了 StatefulWidget、ListView、路由、主题等概念。不管懂不懂照着码一遍，然后带着问题入门。
+
+完成一个简单的移动应用程序，功能是：为一个创业公司生成建议的名称。用户可以选择和取消选择的名称、保存（收藏）喜欢的名称。该代码一次生成十个名称，当用户滚动时，会生成一新批名称。用户可以点击导航栏右边的列表图标，以打开到仅列出收藏名称的新页面（route）。
+
+![fisrt_pro](doc/fisrt_pro.gif)
+
+> https://codelabs.flutter-io.cn/codelabs/first-flutter-app-pt2-cn/index.html
+
+
+- 调用 setState() 会为 State 对象触发 build() 方法，从而导致对 UI 的更新
+
