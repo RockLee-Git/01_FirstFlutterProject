@@ -85,7 +85,7 @@ Divider 在 chrome 上有Bug
 
 完成一个简单的移动应用程序，功能是：为一个创业公司生成建议的名称。用户可以选择和取消选择的名称、保存（收藏）喜欢的名称。该代码一次生成十个名称，当用户滚动时，会生成一新批名称。用户可以点击导航栏右边的列表图标，以打开到仅列出收藏名称的新页面（route）。
 
-![fisrt_pro](https://github.com/RockLee-Git/JustForImage/blob/master/fisrt_pro.gif)
+![](https://raw.githubusercontent.com/RockLee-Git/JustForImage/master/fisrt_pro.gif)
 
 > https://codelabs.flutter-io.cn/codelabs/first-flutter-app-pt2-cn/index.html
 
